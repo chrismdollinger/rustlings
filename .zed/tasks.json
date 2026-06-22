@@ -1,6 +1,5 @@
 // Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
 //
-// Example:
 [
 	{
 		"label": "Run rustlings",
@@ -52,5 +51,11 @@
 		"save": "none",
 		// Represents the tags for inline runnable indicators, or spawning multiple tasks at once.
 		// "tags": []
+	},
+	{
+		"label": "Open module README",
+		"command": "zed",
+		"args": ["$ZED_DIRNAME/README.md"],
+		"hide": "on_success",
 	},
 ]
