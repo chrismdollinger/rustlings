@@ -1,0 +1,1 @@
+This project is for personal use in practicing rust, and is not accepting contributions. For more details, check out [the rustlings course](https://github.com/rust-lang/rustlings/).
